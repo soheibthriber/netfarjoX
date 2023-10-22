@@ -32,7 +32,7 @@ paginate = 5
 
     [languages.en.params.logo]
       logoText = "Netfarjo"
-      logoHomeLink = "/"
+      logoHomeLink = "/NetfarjoX"
     # or
     #
     # path = "/img/your-example-logo.svg"
