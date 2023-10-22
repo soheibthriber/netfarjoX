@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Netfarjo Website'
 theme = 'hello-friend'
 paginate = 5
 
@@ -16,7 +16,7 @@ paginate = 5
 
 [languages]
   [languages.en]
-    title = "Hello Friend"
+    title = "Netfarjo"
     subtitle = "A simple theme for Hugo"
     keywords = ""
     copyright = ""
@@ -31,7 +31,7 @@ paginate = 5
     dateFormatList = "2006-01-02"
 
     [languages.en.params.logo]
-      logoText = "hello friend"
+      logoText = "Netfarjo"
       logoHomeLink = "/"
     # or
     #
