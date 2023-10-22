@@ -1,4 +1,4 @@
-baseurl = "/netfarjox"
+baseurl = "/netfarjoX"
 languageCode = 'en-us'
 title = 'Netfarjo Website'
 theme = 'forked-friend'
@@ -32,7 +32,7 @@ paginate = 5
 
     [languages.en.params.logo]
       logoText = "Netfarjo"
-      logoHomeLink = "/netfarjox"
+      logoHomeLink = "/netfarjoX"
     # or
     #
     # path = "/img/your-example-logo.svg"
