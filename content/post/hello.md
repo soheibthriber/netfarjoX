@@ -1,5 +1,5 @@
 +++
-title = "Netfarjo-X"
+title = "netfarjoX"
 date = "2023-10-22"
 author = "Elliot"
 cover = "img/hello.jpg"
