@@ -1,7 +1,6 @@
 baseurl = "/"
-languageCode = 'en-us'
-title = 'Netfarjo Website'
-theme = 'forked-friend'
+languageCode = "en-us"
+theme = "hugo-theme-hello-friend"
 paginate = 5
 
 [params]
@@ -16,7 +15,7 @@ paginate = 5
 
 [languages]
   [languages.en]
-    title = "Netfarjo"
+    title = "Hello Friend"
     subtitle = "A simple theme for Hugo"
     keywords = ""
     copyright = ""
@@ -31,7 +30,7 @@ paginate = 5
     dateFormatList = "2006-01-02"
 
     [languages.en.params.logo]
-      logoText = "Netfarjo"
+      logoText = "hello friend"
       logoHomeLink = "/"
     # or
     #
