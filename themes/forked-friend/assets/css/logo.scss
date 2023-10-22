@@ -25,10 +25,12 @@
     display: inline-block;
     width: 10px;
     height: 1rem;
-    background: #fe5186;
-    margin-left: 5px;
-    border-radius: 1px;
-    animation: cursor 1s infinite;
+    color: #fe5186; /* Set text color to pink */
+    font-weight: bold; /* Make the letter bold (optional) */
+    font-size: 1rem; /* Set the font size to 1rem to match the height */
+    line-height: 1rem; /* Set line height to match the height */
+    text-align: center; /* Center the "X" horizontally */
+    animation: cursor 1s infinite; /* Apply the animation */
   }
 }
 
