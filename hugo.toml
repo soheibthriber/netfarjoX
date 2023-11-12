@@ -1,7 +1,6 @@
 baseurl = "/netfarjoX"
 languageCode = 'en-us'
 title = 'Netfarjo Website'
-theme = 'forked-friend'
 paginate = 5
 
 [params]
@@ -17,22 +16,24 @@ paginate = 5
 [languages]
   [languages.en]
     title = "Netfarjo"
-    subtitle = "A simple theme for Hugo"
-    keywords = ""
     copyright = ""
-    menuMore = "Show more"
-    writtenBy = "Written by"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    minuteReadingTime = "min read"
-    dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
+ 
 
     [languages.en.params.logo]
       logoText = "Netfarjo"
       logoHomeLink = "/netfarjoX"
+      subtitle = "A simple theme for Hugo"
+      keywords = ""
+      minuteReadingTime = "min read"
+      menuMore = "Show more"
+      writtenBy = "Written by"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      dateFormatSingle = "2006-01-02"
+      dateFormatList = "2006-01-02"
+
     # or
     #
     # path = "/img/your-example-logo.svg"
