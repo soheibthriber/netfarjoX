@@ -25,13 +25,13 @@ As part of the [Angular Basics Series](/tag/basics), we will be taking a compreh
 
 ### Reactive Forms for PROs
 
-- [Advanced Auto-saving Firestore Form](/lessons/auto-save-reactive-forms-with-firestore/)
+- [Advanced Auto-saving Firestore Form](/series/auto-save-reactive-forms-with-firestore/)
 - [Email/Password Auth with Reactive Forms](/courses/angular/user-email-pass/)
 
 
 ## 1. Reactive Forms Fundamentals
 
-At this point, it is assumed that you have an existing Angular project started with the [CLI v6+](https://angularfirebase.com/lessons/basics-angular-cli/). I also highly recommend using [Angular Material](https://material.angular.io/) if you plan on building complex forms. It has a ton of [fancy UI elements](https://material.angular.io/components/categories/forms) for form validation out of the box. You won't see Material Components in the code below, but it is included in the full source on Github.
+At this point, it is assumed that you have an existing Angular project started with the [CLI v6+](https://angularfirebase.com/series/basics-angular-cli/). I also highly recommend using [Angular Material](https://material.angular.io/) if you plan on building complex forms. It has a ton of [fancy UI elements](https://material.angular.io/components/categories/forms) for form validation out of the box. You won't see Material Components in the code below, but it is included in the full source on Github.
 
 To get started, we need to import the *ReactiveFormsModule* into the `app.module.ts`.
 

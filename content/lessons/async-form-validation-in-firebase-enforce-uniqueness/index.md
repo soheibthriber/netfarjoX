@@ -61,7 +61,7 @@ Your `app.module.ts` should have the following imports:
 export class AppModule { }
 ```
 
-<p class="success">If you're new to Firebase auth, I recommend also checking out [Episode 55 Custom Firebase User Data](https://angularfirebase.com/lessons/google-user-auth-with-firestore-custom-data/)</p>
+<p class="success">If you're new to Firebase auth, I recommend also checking out [Episode 55 Custom Firebase User Data](https://angularfirebase.com/series/google-user-auth-with-firestore-custom-data/)</p>
 
 ## Building the Reactive Form
 

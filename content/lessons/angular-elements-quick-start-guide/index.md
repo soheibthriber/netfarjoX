@@ -28,7 +28,7 @@ In addition to this post, check out these resources:
 - [Manfred Steyer's Angular Elements Series](https://www.softwarearchitekt.at/post/2018/07/06/angular-elements-without-zone-js.aspx)
 - [Sam Julian's Getting Started with Angular Elements](https://www.telerik.com/blogs/getting-started-with-angular-elements)
 - [Nrwl's Five Reasons to Use Angular Elements](https://blog.nrwl.io/5-reasons-to-use-angular-elements-390c9a629f89)
-- [Angular Elements QuickStart](https://angularfirebase.com/lessons/angular-elements-quick-start-guide/)
+- [Angular Elements QuickStart](https://angularfirebase.com/series/angular-elements-quick-start-guide/)
  
 
 ## Rendering without Zone.JS

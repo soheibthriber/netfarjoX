@@ -177,5 +177,5 @@ node seed.js
 ```
 
 
-This post first appeared as [Episode 109 Algolia Firestore on AngularFirebase.com](https://angularfirebase.com/lessons/algolia-firestore-quickstart-with-firebase-cloud-functions/) and has been fully updated with the latest best practices. 
+This post first appeared as [Episode 109 Algolia Firestore on AngularFirebase.com](https://angularfirebase.com/series/algolia-firestore-quickstart-with-firebase-cloud-functions/) and has been fully updated with the latest best practices. 
 

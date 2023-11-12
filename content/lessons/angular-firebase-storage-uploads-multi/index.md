@@ -33,7 +33,7 @@ Firebase makes it easy to upload a huge payload of raw files a cloud storage buc
 {{< figure src="img/dropzone-firebase-storage.png" alt="Firebase storage demo with multiple files" >}}
 
 
-This post first appeared as [Episode 82 on AngularFirebase.com](https://angularfirebase.com/lessons/firebase-storage-with-angularfire-dropzone-file-uploader/) and has been updated to handle multiple files and save additional data to Firestore. 
+This post first appeared as [Episode 82 on AngularFirebase.com](https://angularfirebase.com/series/firebase-storage-with-angularfire-dropzone-file-uploader/) and has been updated to handle multiple files and save additional data to Firestore. 
 
 
 

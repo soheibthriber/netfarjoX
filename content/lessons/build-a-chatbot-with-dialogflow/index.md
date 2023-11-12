@@ -102,7 +102,7 @@ const serviceAccount = require('./service-account.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://fireship-lessons.firebaseio.com"
+  databaseURL: "https://fireship-series.firebaseio.com"
 });
 
 const { SessionsClient } = require('dialogflow');

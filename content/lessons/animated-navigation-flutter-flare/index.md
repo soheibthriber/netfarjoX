@@ -180,7 +180,7 @@ class MenuItem {
 Our navigation menu is wrapped in a StatefulWidget to keep track of the currently selected item. Here's a breakdown of each important line of code. 
 
 1. Set a default menu item on `initState`. 
-2. Define a [Stack](https://fireship.io/lessons/flutter-widget-positioning-guide/). The first element is an container for the colored , while the second item is the navigation menu row.. 
+2. Define a [Stack](https://fireship.io/series/flutter-widget-positioning-guide/). The first element is an container for the colored , while the second item is the navigation menu row.. 
 3. Create an [AnimatedContainer](https://www.youtube.com/watch?v=yI-8QHpGIP4&vl=en) that takes up 20% of the screen width and is aligned to the active menu item. 
 4. Define a *Row* to hold the Flare graphics that uses `spaceAround` alignment on the main axis. 
 

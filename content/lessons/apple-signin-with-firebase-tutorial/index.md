@@ -10,7 +10,7 @@ tags:
     - ios
     - javascript
 
-type: lessons
+type: series
 youtube: UafqYgRoIC0
 # code: 
 # disable_toc: true

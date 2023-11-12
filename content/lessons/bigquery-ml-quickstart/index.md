@@ -70,7 +70,7 @@ The end result should be a table that looks just like the original spreadsheet. 
 ```sql
 SELECT age, position, sex
   
-FROM `fireship-lessons.horse_data.horses` 
+FROM `fireship-series.horse_data.horses` 
 
 WHERE age > 2
 
@@ -122,7 +122,7 @@ Create a new cell in the notebook and run the code below, but make sure to use y
 {{< file "python" "notebook" >}}
 ```python
 %%bq query
-CREATE OR REPLACE MODEL `fireship-lessons.horse_data.ml_model`
+CREATE OR REPLACE MODEL `fireship-series.horse_data.ml_model`
 OPTIONS
   (model_type='logistic_reg',
     input_label_cols=['position']) AS
@@ -133,7 +133,7 @@ SELECT
   favourite_odds_win, number, runner_id, bf_odds, barrier, market_id,
   position
 FROM
-  `fireship-lessons.horse_data.horses`
+  `fireship-series.horse_data.horses`
 ```
 
 
@@ -149,7 +149,7 @@ For this particular ML problem, we are interested in the *log_loss* metric - a s
 SELECT
   *
 FROM
-  ML.EVALUATE(MODEL `fireship-lessons.horse_data.ml_model`,
+  ML.EVALUATE(MODEL `fireship-series.horse_data.ml_model`,
     (
       SELECT
         age,
@@ -158,7 +158,7 @@ FROM
         favourite_odds_win, number, runner_id, bf_odds, barrier, market_id,
         position
       FROM
-        `fireship-lessons.horse_data.horses`
+        `fireship-series.horse_data.horses`
     )
   )
 
@@ -178,7 +178,7 @@ At this point, we're happy with our model and it should pick the right winner fo
 SELECT
   sex, runner_id, position
 FROM
-  ML.PREDICT(MODEL `fireship-lessons.horse_data.ml_model`,
+  ML.PREDICT(MODEL `fireship-series.horse_data.ml_model`,
     (
         SELECT
           age,
@@ -187,7 +187,7 @@ FROM
           favourite_odds_win, number, runner_id, bf_odds, barrier, market_id,
           position
         FROM
-          `fireship-lessons.horse_data.horses`
+          `fireship-series.horse_data.horses`
         ORDER BY RAND()
         LIMIT 10
       

@@ -39,7 +39,7 @@ The end result of this lesson is an Angular/Firebase app that supports the follo
 
 
 
-This post first appeared as [Episode 55 on AngularFirebase.com](https://angularfirebase.com/lessons/google-user-auth-with-firestore-custom-data/) and has been fully updated with the latest best practices. 
+This post first appeared as [Episode 55 on AngularFirebase.com](https://angularfirebase.com/series/google-user-auth-with-firestore-custom-data/) and has been fully updated with the latest best practices. 
 
 
 ## Step 0: Prerequisites

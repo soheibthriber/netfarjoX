@@ -22,7 +22,7 @@ github: https://github.com/AngularFirebase/86-firestore-threaded-comments
 # versions:
 #    rxdart: 0.20
 ---
-In the previous lesson, we learned the [fundamentals of relational data modeling with Firestore](/lessons/firestore-nosql-data-modeling-by-example/). Today I want to push further and look at several more practical examples. In addition to data modeling, we will look at techniques like duplication, aggregation, composite keys, bucketing, and more.
+In the previous lesson, we learned the [fundamentals of relational data modeling with Firestore](/series/firestore-nosql-data-modeling-by-example/). Today I want to push further and look at several more practical examples. In addition to data modeling, we will look at techniques like duplication, aggregation, composite keys, bucketing, and more.
 
 
 <p class="tip">Keep in mind, Firestore is still in beta. Firebase engineers hinted at some really cool features on the roadmap (geo queries, query by array of ids) - I'll be sure to keep you posted :)</p>
@@ -38,7 +38,7 @@ Data duplication is a very common technique to eliminate the need to read multip
 
 ### Aggregation
 
-Data aggregation is the process of analyzing a collection of data, then saving the results on some other document. The simplest example would be saving a _count_ of the total documents in a collection. Normally, [Firestore aggregation](https://angularfirebase.com/lessons/firestore-cloud-functions-data-aggregation/) is done server side via Cloud Functions.
+Data aggregation is the process of analyzing a collection of data, then saving the results on some other document. The simplest example would be saving a _count_ of the total documents in a collection. Normally, [Firestore aggregation](https://angularfirebase.com/series/firestore-cloud-functions-data-aggregation/) is done server side via Cloud Functions.
 
 ### Composite Keys
 
